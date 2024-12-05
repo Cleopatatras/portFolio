@@ -1,3 +1,14 @@
-h1 {
-  color: blue;
+body {
+  font: 19px/23px Montserrat, sans-serif;
+}
+
+body {
+  background: #171c28;
+  color: #ffffff;
+  margin: 0 20px;
+}
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0 30px;
+  }
 }/*# sourceMappingURL=main.css.map */
