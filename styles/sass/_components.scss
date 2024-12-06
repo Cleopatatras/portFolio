@@ -1,0 +1,24 @@
+.section-display {
+  display: flex;
+
+  .text-content {
+    flex: 1;
+    .title {
+      font-size: 50px;
+      line-height: 1.1;
+      font-weight: 600;
+    }
+    .paragraph {
+      font-size: 28px;
+      line-height: 1.1;
+    }
+  }
+  .illustration {
+    flex: 1;
+    img {
+      max-width: 70%;
+      display: block;
+      margin: auto;
+    }
+  }
+}
